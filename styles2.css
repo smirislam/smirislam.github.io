@@ -1,0 +1,87 @@
+body
+ {
+   
+   background-image: url("images/matrix2.jpg");
+   color:white;
+   font-size: 14pt;
+   margin: 0;
+}
+img {
+	float: left;
+	margin: 25;
+	width: 350;
+	height: 500;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: green;
+}
+.active {
+    background-color: green;
+}
+h1 
+{
+font-family: "Times New Roman", Times, serif;
+text-decoration: underline;
+color: white; 
+font-size: 25pt;
+margin: 15;
+}
+p
+{
+	font-size: 14pt;
+	font-family: arial;
+	margin: 15;
+    color: white;
+}
+.header {
+    padding: 25px;
+}
+.heading
+{
+
+color: white; 
+text-align: center;
+font-size: 35pt;
+margin: 25;
+}
+.gladiator{
+    background-image: url("images/gladiator2.jpg");
+   color:white;
+   font-size: 14pt;
+   margin: 0;
+}
+.godfather{
+  background-image: url("images/godfather1.jpg");
+   color:white;
+   font-size: 14pt;
+   margin: 0;
+}
+.troy{
+  background-image: url("images/troy1.jpg");
+   color:white;
+   font-size: 14pt;
+   margin: 0;
+}
